@@ -3,5 +3,12 @@ import javax.swing.*;import javax.swing.static void main(String[] args) {
         ventana.setSize(300, 200);
         ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         ventana.setVisible(true);
+
+
+public class Main {
+    public static void main(String[] args) {
+        new Interfaz();
     }
 }
+
+    }
