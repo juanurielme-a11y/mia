@@ -18,6 +18,5 @@ window.cargarCSV = async () => {
 
     await setDoc(doc(db, "Estudiantes", id), estudiante);
   }
-
   mostrar("CSV cargado");
 };
