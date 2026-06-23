@@ -13,9 +13,8 @@ window.cargarCSV = async () => {
       Edad: parseInt(data[4]),
       Semestre: parseInt(data[6])
     };
-
+    
     const id = Date.now().toString();
-
     await setDoc(doc(db, "Estudiantes", id), estudiante);
   }
 };
