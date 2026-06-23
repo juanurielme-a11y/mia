@@ -5,5 +5,3 @@ import javax.swing.*;import javax.swing.static void main(String[] args) {
         ventana.setVisible(true);
     }
 }
-
-public class Test {
