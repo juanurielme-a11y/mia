@@ -1,0 +1,8 @@
+<dependencies>
+    <dependency>
+        <groupId>com.google.firebase</groupId>
+        <artifactId>firebase-admin</artifactId>
+        <version>9.2.0</version>
+    </dependency>
+</dependencies>
+``
