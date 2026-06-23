@@ -1,10 +1,30 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Proyecto Firebase</title>
+    <title>Gestión de Estudiantes</title>
 </head>
 <body>
-    <h1>Aplicación de Gestión de Estudiantes</h1>
-    <p>Proyecto desarrollado en Java conectado a Firebase.</p>
+
+<h1>Gestión de Estudiantes Firebase</h1>
+
+<input type="text" id="id" placeholder="ID"><br>
+<input type="text" id="nombre" placeholder="Nombre"><br>
+<input type="text" id="apellido" placeholder="Apellido"><br>
+<input type="number" id="edad" placeholder="Edad"><br>
+<input type="number" id="semestre" placeholder="Semestre"><br>
+
+<br>
+
+<button onclick="insertar()">Insertar</button>
+<button onclick="buscar()">Buscar</button>
+<button onclick="actualizar()">Actualizar</button>
+<button onclick="eliminarEst()">Eliminar</button>
+
+<h3>Resultado:</h3>
+<pre id="resultado"></pre>
+
+<script type="module" src="app.js"></script>
+
 </body>
 </html>
+``
